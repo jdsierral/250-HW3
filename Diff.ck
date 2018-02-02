@@ -1,3 +1,11 @@
+//
+//  ComplexTracker.ck
+//
+//
+//  Created by JuanS.
+
+/* Differntiator to find first difference, track risingEdge and fallingEdge */
+
 public class Diff {
     float s;
     fun float tick(float val) {

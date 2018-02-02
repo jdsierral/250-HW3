@@ -1,3 +1,13 @@
+//
+//  ComplexTracker.ck
+//
+//
+//  Created by JuanS.
+
+/* Simple Test to verify inputs and outputs from interface */
+
+
+
 adc.chan(0) => FullRect rect1 => OnePole p1 => blackhole;
 adc.chan(1) => FullRect rect2 => OnePole p2 => blackhole;
 adc.chan(2) => FullRect rect3 => OnePole p3 => blackhole;

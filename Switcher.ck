@@ -1,3 +1,15 @@
+//
+//  ComplexTracker.ck
+//
+//
+//  Created by JuanS.
+
+
+/* Object to track the switching mechanism and counting of samples to get the
+difference between arrival times of transients */
+
+
+
 public class Switcher {
     0 => int state;
     0 => int counter;

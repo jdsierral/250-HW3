@@ -1,3 +1,13 @@
+//
+//  ComplexTracker.ck
+//
+//
+//  Created by JuanS.
+
+
+/* Mapping object to create diatonic scales!
+Currently it only has a pentatonic, but its possible to add more */
+
 public class Mapping {
 
     0 => int linear;

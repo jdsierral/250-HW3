@@ -1,3 +1,12 @@
+//
+//  ComplexTracker.ck
+//
+//
+//  Created by JuanS.
+
+
+/* Simple tracker! One pole  */
+
 public class Tracker {
     float a;
     float b;

@@ -1,3 +1,13 @@
+//
+//  ComplexTracker.ck
+//
+//
+//  Created by JuanS.
+//  Base class for a complex envelope tracker.
+//  It has a differnt time for the attack of the transients than for the release
+//  allowing to have a slow release while still being responsive
+
+
 public class ComplexTracker {
     float aA;
     float bA;

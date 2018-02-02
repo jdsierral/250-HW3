@@ -1,3 +1,22 @@
+//
+//  ComplexTracker.ck
+//
+//
+//  Created by JuanS.
+
+/* 
+Main Analyzer:
+
+It is based on a complex tracker (different attack and release times)
+and a slow rms to avoid false readings from noise
+The Transient attack is defined as the moment where the fast tracker
+has a higher value than the rmsTracker.
+Then this boolean stream is converted to pulses by differentiating the
+steam, and finally, only the rising edge is used to discard the moment
+where the fast tracker goes below the rms tracker
+
+Then this stream is given to the Switcher! */
+
 public class TDA {
     Gain inL => blackhole;
     Gain inR => blackhole;
